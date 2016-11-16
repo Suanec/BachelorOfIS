@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+
+void main()
+{
+	int quit=1;
+	while(quit)
+	{
+		cout<<"input number except zero to continue,zero to exit:"<<endl;
+		cin>>quit;
+
+	}
+}

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_jobdu_1015：还是A+B", "_jobdu_1015：还是A+B\_jobdu_1015：还是A+B.vcxproj", "{B7846BF9-27BD-4810-9D3A-EAAA1F21A866}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7846BF9-27BD-4810-9D3A-EAAA1F21A866}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B7846BF9-27BD-4810-9D3A-EAAA1F21A866}.Debug|Win32.Build.0 = Debug|Win32
+		{B7846BF9-27BD-4810-9D3A-EAAA1F21A866}.Release|Win32.ActiveCfg = Release|Win32
+		{B7846BF9-27BD-4810-9D3A-EAAA1F21A866}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

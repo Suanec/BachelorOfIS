@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 计算矩形周长面积 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP2BE1.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/计算矩形周长面积.pdb" /debug /machine:I386 /out:"Debug/计算矩形周长面积.exe" /pdbtype:sept 
+".\Debug\StdAfx.obj"
+".\Debug\计算矩形周长面积.obj"
+".\Debug\计算矩形周长面积Dlg.obj"
+".\Debug\计算矩形周长面积.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP2BE1.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+计算矩形周长面积.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

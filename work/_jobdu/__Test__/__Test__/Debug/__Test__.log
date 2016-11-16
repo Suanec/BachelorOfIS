@@ -1,0 +1,22 @@
+﻿生成启动时间为 2015/10/29 16:50:49。
+     1>项目“E:\my program\work\_jobdu\__Test__\__Test__\__Test__.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\__Test__.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt C:\Users\anec\Desktop\DA.CPP
+         DA.CPP
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\my program\work\_jobdu\__Test__\Debug\__Test__.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\__Test__.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\my program\work\_jobdu\__Test__\Debug\__Test__.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\my program\work\_jobdu\__Test__\Debug\__Test__.lib" /MACHINE:X86 Debug\DA.obj
+         Debug\__Test__.obj
+         LINK : 没有找到 E:\my program\work\_jobdu\__Test__\Debug\__Test__.exe 或上一个增量链接没有生成它；正在执行完全链接
+         __Test__.vcxproj -> E:\my program\work\_jobdu\__Test__\Debug\__Test__.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\my program\work\_jobdu\__Test__\Debug\__Test__.exe;#1" /manifest Debug\__Test__.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\__Test__.unsuccessfulbuild”。
+         正在对“Debug\__Test__.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\my program\work\_jobdu\__Test__\__Test__\__Test__.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.18

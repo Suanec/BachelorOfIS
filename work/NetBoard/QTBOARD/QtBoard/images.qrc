@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/QtBoardImages">
+        <file>Images/copy.png</file>
+        <file>Images/cut.png</file>
+        <file>Images/fillButtonIcon.png</file>
+        <file>Images/huabi.png</file>
+        <file>Images/juxing.png</file>
+        <file>Images/lineButtonIcon.png</file>
+        <file>Images/new.png</file>
+        <file>Images/open.png</file>
+        <file>Images/paste.png</file>
+        <file>Images/save.png</file>
+        <file>Images/xiangpica.png</file>
+        <file>Images/yuan.png</file>
+        <file>Images/zhixian.png</file>
+        <file>Images/pencil.bmp</file>
+        <file>Images/Cross.png</file>
+    </qresource>
+</RCC>

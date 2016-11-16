@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="_leetcode_155.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_106.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_105.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_292.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_322.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_258.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_104.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_Tencent_getGray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_Tencent_Gift_getValue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_nowcoder_printMatrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_263.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_264.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_313.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="T_leetcode_134.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_205.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_aTemplate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_290.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="T_leetcode_BinarySortTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_230.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="T_leetcode_145.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_144.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_094.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_098.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_075.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_013.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_001.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_189.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_190.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_160.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_148.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_173.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_096.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="T_leetcode_095.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="T_leetcode_241.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_344.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_338.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_136.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_311.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_226.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_283.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_237.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_100.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_137.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_002.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_007.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="T_leetcode_006.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_260.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="O_leetcode_347.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_238.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_008.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_242.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="T_leetcode_122.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_121.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="T_leetcode_053.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_171.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_168.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_206.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_217.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_169.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_S_Boyer-Moore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="T_leetcode_229.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_191.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_231.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_83.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_141.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_031.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_S_sizeofPointer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_326.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_233.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_349.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_350.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="T_leetcode_345.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_374.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_leetcode_375.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="leetcode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

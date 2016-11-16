@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "中序表达式生成树", "中序表达式生成树\中序表达式生成树.vcxproj", "{0C748C32-2C12-4647-B8D8-E7DC207591D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C748C32-2C12-4647-B8D8-E7DC207591D3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0C748C32-2C12-4647-B8D8-E7DC207591D3}.Debug|Win32.Build.0 = Debug|Win32
+		{0C748C32-2C12-4647-B8D8-E7DC207591D3}.Release|Win32.ActiveCfg = Release|Win32
+		{0C748C32-2C12-4647-B8D8-E7DC207591D3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,32 @@
+/*
+237. Delete Node in a Linked List   My Submissions QuestionEditorial Solution
+Total Accepted: 78848 Total Submissions: 180350 Difficulty: Easy
+Write a function to delete a node (except the tail) in a singly linked list, given only access to that node.
+
+Supposed the linked list is 1 -> 2 -> 3 -> 4 and you are given the third node with value 3, the linked list should become 1 -> 2 -> 4 after calling your function.
+*/
+
+#include"leetcode.h"
+
+
+
+class Solution {
+public:
+    void deleteNode(ListNode* node) {
+		ListNode* p = node->next;
+		node->val = p->val;
+		node->next = p->next;
+		p->next = NULL;
+		free(p);
+    }
+};
+
+/*********************************************************
+
+                         main()
+
+*********************************************************/
+//void main(){
+//	Solution slt;
+// 	//system("pause");
+//}

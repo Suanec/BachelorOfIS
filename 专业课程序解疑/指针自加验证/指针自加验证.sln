@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "指针自加验证", "指针自加验证\指针自加验证.vcxproj", "{C9BE5235-6026-4706-B07B-C2AA6EDF9F13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9BE5235-6026-4706-B07B-C2AA6EDF9F13}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C9BE5235-6026-4706-B07B-C2AA6EDF9F13}.Debug|Win32.Build.0 = Debug|Win32
+		{C9BE5235-6026-4706-B07B-C2AA6EDF9F13}.Release|Win32.ActiveCfg = Release|Win32
+		{C9BE5235-6026-4706-B07B-C2AA6EDF9F13}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

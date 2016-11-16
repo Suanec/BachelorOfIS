@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: InstantMessaging - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1E.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/InstantMessaging.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\MFC编程\InstantMessaging\InstantMessagingDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1F.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/InstantMessaging.pdb" /debug /machine:I386 /out:"Debug/InstantMessaging.exe" /pdbtype:sept 
+".\Debug\DialogSetting.obj"
+".\Debug\InstantMessaging.obj"
+".\Debug\InstantMessagingDlg.obj"
+".\Debug\ListeningSocket.obj"
+".\Debug\StdAfx.obj"
+".\Debug\ChatDlg.obj"
+".\Debug\font.obj"
+".\Debug\oleobject.obj"
+".\Debug\oleobjects.obj"
+".\Debug\picture.obj"
+".\Debug\richtext.obj"
+".\Debug\ChatRoomClientDlg.obj"
+".\Debug\ChatRoomClientSocket.obj"
+".\Debug\ChatRoomServerDlg.obj"
+".\Debug\ChatRoomServerSocket.obj"
+".\Debug\AdvButton.obj"
+".\Debug\FriendsListCtrl.obj"
+".\Debug\ShareScreenClientDlg.obj"
+".\Debug\ShareScreenClientSocket.obj"
+".\Debug\ShareScreenServerDlg.obj"
+".\Debug\ShareScreenServerSocket.obj"
+".\Debug\ReceiveFilesSocket.obj"
+".\Debug\SendFilesClientDlg.obj"
+".\Debug\SendFilesClientThread.obj"
+".\Debug\SendFilesReceiveUsersDlg.obj"
+".\Debug\SendFilesServerDlg.obj"
+".\Debug\SendFilesServerSocket.obj"
+".\Debug\SendFilesServerThread.obj"
+".\Debug\SendFilesSocket.obj"
+".\Debug\WhiteBoardClientDlg.obj"
+".\Debug\WhiteBoardClientSocket.obj"
+".\Debug\WhiteBoardServerDlg.obj"
+".\Debug\WhiteBoardServerSocket.obj"
+".\Debug\CanvasStatic.obj"
+".\Debug\VideoChatDlg.obj"
+".\Debug\VideoChatListenSocket.obj"
+".\Debug\VideoChatSocket.obj"
+".\Debug\Debug.obj"
+".\Debug\InstantMessaging.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1F.tmp"
+<h3>Output Window</h3>
+Compiling...
+InstantMessagingDlg.cpp
+D:\MFC编程\InstantMessaging\InstantMessagingDlg.cpp(1574) : warning C4018: '<' : signed/unsigned mismatch
+D:\MFC编程\InstantMessaging\InstantMessagingDlg.cpp(1613) : warning C4018: '<' : signed/unsigned mismatch
+D:\MFC编程\InstantMessaging\InstantMessagingDlg.cpp(1702) : warning C4101: 'chatPacketInfo' : unreferenced local variable
+D:\MFC编程\InstantMessaging\InstantMessagingDlg.cpp(2217) : warning C4018: '<' : signed/unsigned mismatch
+Linking...
+
+
+
+<h3>Results</h3>
+InstantMessaging.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

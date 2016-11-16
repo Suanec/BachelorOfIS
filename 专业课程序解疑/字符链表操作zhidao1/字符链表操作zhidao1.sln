@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "字符链表操作zhidao1", "字符链表操作zhidao1\字符链表操作zhidao1.vcxproj", "{3D240DDB-0539-49C5-A9E0-BE9DB7085C03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D240DDB-0539-49C5-A9E0-BE9DB7085C03}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3D240DDB-0539-49C5-A9E0-BE9DB7085C03}.Debug|Win32.Build.0 = Debug|Win32
+		{3D240DDB-0539-49C5-A9E0-BE9DB7085C03}.Release|Win32.ActiveCfg = Release|Win32
+		{3D240DDB-0539-49C5-A9E0-BE9DB7085C03}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

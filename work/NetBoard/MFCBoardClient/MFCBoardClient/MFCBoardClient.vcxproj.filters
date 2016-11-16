@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="AdvButton">
+      <UniqueIdentifier>{6d86d5d7-f8d6-4f5d-a16a-cb38e43074e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CanvasStatic">
+      <UniqueIdentifier>{80d7a801-b025-46e4-a6b4-23c1fdd733df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientSocket">
+      <UniqueIdentifier>{572ca4b6-5cd4-439b-80b5-6a07447877e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConSrvDlg">
+      <UniqueIdentifier>{7117a6b2-2eb5-4ff6-bea6-7978aebb6a81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\MFCBoardClient.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\MFCBoardClient.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cursor.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\eraser_1.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\eraser_2.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\eraser_3.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\eraser_4.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\pencil.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\ellipse_disable.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\ellipse_down.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\ellipse_empty_disable.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\ellipse_empty_down.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\ellipse_empty_hover.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\ellipse_empty_normal.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\ellipse_hover.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\ellipse_normal.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\eraser_disable.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\eraser_down.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\eraser_hover.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\eraser_normal.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\line_disable.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\line_down.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\line_hover.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\line_normal.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\pencil_disable.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\pencil_down.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\pencil_hover.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\pencil_normal.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\rectangle_disable.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\rectangle_down.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\rectangle_empty_disable.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\rectangle_empty_down.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\rectangle_empty_hover.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\rectangle_empty_normal.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\rectangle_hover.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\rectangle_normal.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\width_1_disable.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\width_1_down.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\width_1_hover.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\width_1_normal.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\width_2_disable.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\width_2_down.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\width_2_hover.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\width_2_normal.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\width_3_disable.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\width_3_down.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\width_3_hover.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\width_3_normal.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\width_4_disable.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\width_4_down.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\width_4_hover.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\width_4_normal.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\whiteboard\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\clear_disable.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\clear_downl.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\clear_hover.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WhiteBoard\clear_normal.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MFCBoardClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCBoardClientDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AdvButton.h">
+      <Filter>AdvButton</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CanvasStatic.h">
+      <Filter>CanvasStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="WhiteBoardClientSocket.h">
+      <Filter>ClientSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="ConSrvDlg.h">
+      <Filter>ConSrvDlg</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MFCBoardClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCBoardClientDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvButton.cpp">
+      <Filter>AdvButton</Filter>
+    </ClCompile>
+    <ClCompile Include="CanvasStatic.cpp">
+      <Filter>CanvasStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="WhiteBoardClientSocket.cpp">
+      <Filter>ClientSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="ConSrvDlg.cpp">
+      <Filter>ConSrvDlg</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFCBoardClient.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

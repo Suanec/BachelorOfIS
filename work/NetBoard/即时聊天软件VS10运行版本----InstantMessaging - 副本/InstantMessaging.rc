@@ -1,0 +1,796 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\InstantMessaging.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\InstantMessaging.ico"
+IDI_OFFLINE             ICON    DISCARDABLE     "res\\InstantMessaging_offline.ico"
+IDI_MIKE                ICON    DISCARDABLE     "res\\mike.ico"
+IDI_TRUMP               ICON    DISCARDABLE     "res\\trump.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 InstantMessaging"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "InstantMessaging 1.0 版",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2011",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_INSTANTMESSAGING_DIALOG DIALOGEX 0, 0, 169, 273
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "InstantMessaging"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "List5",IDC_LIST_FRIENDS,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_OWNERDRAWFIXED | 
+                    LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,7,61,155,170
+    COMBOBOX        IDC_COMBO_STATE,45,7,33,56,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO_FRIEND,85,7,77,175,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_NICKNAME,45,25,76,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    CONTROL         206,IDC_STATIC_FACE,"Static",SS_BITMAP | SS_CENTERIMAGE | 
+                    WS_BORDER,7,7,32,32
+    PUSHBUTTON      "添加",IDC_BTN_ADDFRIEND,128,25,34,20,NOT WS_TABSTOP
+    PUSHBUTTON      "聊天室",IDC_BTN_CHATROOM,7,237,34,29,NOT WS_TABSTOP
+    PUSHBUTTON      "传送文件",IDC_BTN_SENDFILES,47,237,34,29,NOT WS_TABSTOP
+    PUSHBUTTON      "共享屏幕",IDC_BTN_SHARESCREEN,87,237,34,29,NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      "白板",IDC_BTN_WHITEBOARD,128,237,34,29,NOT WS_TABSTOP
+    COMBOBOX        IDC_COMBO_IP,7,43,77,84,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "网段",IDB_ADD_SECTION,89,42,32,15
+END
+
+IDD_DIALOG_BG DIALOG DISCARDABLE  0, 0, 187, 94
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,130,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,130,24,50,14
+END
+
+IDD_SETTING DIALOG DISCARDABLE  0, 0, 133, 125
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "个人设置"
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT_NICKNAME,33,7,93,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_COMBOBOXEX_FACE,"ComboBoxEx32",CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP,33,29,37,331
+    CONTROL         "HotKey1",IDC_HOTKEY,"msctls_hotkey32",WS_BORDER | 
+                    WS_TABSTOP,33,66,93,14
+    PUSHBUTTON      "保存",IDB_SAVE,12,104,42,14
+    PUSHBUTTON      "取消",IDB_CANCEL,79,104,42,14
+    LTEXT           "昵称",IDC_STATIC,7,9,17,8
+    LTEXT           "快捷键",IDC_STATIC,7,68,25,8
+    LTEXT           "头像",IDC_STATIC,7,31,17,8
+    CONTROL         "允许别人直接将我加为联系人",IDC_CHECK_AUTOADDFRIENDS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,87,120,10
+END
+
+IDD_CHATROOM_SERVER DIALOG DISCARDABLE  0, 0, 392, 272
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU
+CAPTION "聊天室"
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDE_SEND,7,187,243,60,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | WS_VSCROLL
+    PUSHBUTTON      "关　闭",IDB_COLSE,143,251,50,14
+    PUSHBUTTON      "发　送",IDB_SEND,200,251,50,14
+    EDITTEXT        IDE_RECEIVED,7,7,243,174,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_READONLY | ES_WANTRETURN | WS_VSCROLL
+    CONTROL         "List2",IDC_LIST_INCHAT,"SysListView32",LVS_REPORT | 
+                    LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,258,7,127,
+                    119
+    PUSHBUTTON      "添加",IDB_ADDFRIENDS,287,128,11,16
+    PUSHBUTTON      "删除",IDB_DELFRIENDS,334,128,11,16
+    CONTROL         "List2",IDC_LIST_OUTOFCHAT,"SysListView32",LVS_REPORT | 
+                    LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,258,146,127,
+                    119
+END
+
+IDD_CHATROOM_CLIENT DIALOG DISCARDABLE  0, 0, 392, 272
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "聊天室"
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDE_SEND,7,187,243,60,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | WS_VSCROLL
+    PUSHBUTTON      "关　闭",IDB_CLOSE,138,251,50,14
+    PUSHBUTTON      "发　送",IDB_SEND,200,251,50,14
+    EDITTEXT        IDE_RECEIVED,7,7,243,174,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_READONLY | ES_WANTRETURN | WS_VSCROLL
+    CONTROL         "List2",IDC_LIST_INCHAT,"SysListView32",LVS_REPORT | 
+                    LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,258,7,127,
+                    258
+END
+
+IDD_CHAT DIALOG DISCARDABLE  0, 0, 301, 286
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "聊天"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "",IDC_RICHTEXT_SEND,
+                    "{3B7C8860-D78F-101B-B9B5-04021C009402}",WS_TABSTOP,7,
+                    189,287,69
+    PUSHBUTTON      "发　送",IDB_SEND,244,265,50,14
+    PUSHBUTTON      "聊天记录",IDB_LOADFILE,7,265,53,14
+    CONTROL         "关闭时保存聊天记录",IDC_SAVEFILE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,63,267,88,10
+    PUSHBUTTON      "关　闭",IDB_CLOSE,183,265,50,14
+    CONTROL         "",IDC_RICHTEXT_RECEIVED,
+                    "{3B7C8860-D78F-101B-B9B5-04021C009402}",WS_TABSTOP,7,33,
+                    287,150
+    CONTROL         206,IDS_FACE,"Static",SS_BITMAP,7,7,21,21
+    CONTROL         "昵称",IDS_NICKNAME,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,34,9,260,8
+    CONTROL         "IP",IDS_IP,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,34,19,
+                    260,8
+END
+
+IDD_SHARESCREEN_CLIENT DIALOG DISCARDABLE  0, 0, 367, 305
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "共享屏幕"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "",IDS_SCREEN,"Static",SS_BITMAP,0,0,356,294
+END
+
+IDD_SENDFILES_SERVER DIALOG DISCARDABLE  0, 0, 460, 168
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "传输文件"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "List1",IDC_LIST_SEND,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,7,7,446,132
+    PUSHBUTTON      "删　除",IDB_DELETE,272,147,57,14
+    PUSHBUTTON      "添　加",IDB_ADD,129,147,57,14
+END
+
+IDD_SENDFILES_CLIENT DIALOG DISCARDABLE  0, 0, 460, 168
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "接收文件"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "List1",IDC_LIST_RECEIVE,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,7,7,446,132
+    PUSHBUTTON      "删　除",IDB_DELETE,202,147,57,14
+END
+
+IDD_SENDFILES_USER DIALOG DISCARDABLE  0, 0, 178, 223
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "选择接收对象"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,30,202,50,14
+    DEFPUSHBUTTON   "取消",IDCANCEL,98,202,50,14
+    CONTROL         "List2",IDC_LIST_USER,"SysListView32",LVS_REPORT | 
+                    LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,7,7,164,188
+END
+
+IDD_SHARESCREEN_SERVER DIALOG DISCARDABLE  0, 0, 392, 272
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "共享屏幕"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "List2",IDC_LIST_INSHARESCREEN,"SysListView32",
+                    LVS_REPORT | LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,
+                    258,7,127,119
+    CONTROL         "List2",IDC_LIST_OUTOFSHARESCREEN,"SysListView32",
+                    LVS_REPORT | LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,
+                    258,146,127,119
+    PUSHBUTTON      "添加",IDB_ADDFRIENDS,287,128,11,16
+    PUSHBUTTON      "删除",IDB_DELFRIENDS,334,128,11,16
+    EDITTEXT        IDE_INFORMATION,7,7,243,258,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_READONLY | ES_WANTRETURN | 
+                    WS_VSCROLL
+END
+
+IDD_WHITEBOARD_SERVER DIALOG DISCARDABLE  0, 0, 470, 315
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "白板"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "List2",IDC_LIST_INWHITEBOARD,"SysListView32",LVS_REPORT | 
+                    LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,335,7,127,
+                    140
+    CONTROL         "List2",IDC_LIST_OUTOFWHITEBOARD,"SysListView32",
+                    LVS_REPORT | LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,
+                    335,167,127,141
+    PUSHBUTTON      "添加",IDB_ADDFRIENDS,372,149,11,16
+    PUSHBUTTON      "删除",IDB_DELFRIENDS,418,149,11,16
+    CONTROL         "",IDS_CANVAS,"Static",SS_BLACKFRAME | SS_NOTIFY,39,7,
+                    289,301
+    PUSHBUTTON      "橡皮察",IDB_ERASER,12,17,13,16
+    GROUPBOX        "工具",IDC_STATIC,7,7,26,258
+    PUSHBUTTON      "画笔",IDB_PENCIL,12,36,13,16
+    PUSHBUTTON      "直线",IDB_LINE,12,55,13,16
+    PUSHBUTTON      "空心矩形",IDB_RECTANGLE_EMPTY,12,74,13,16
+    PUSHBUTTON      "实心矩形",IDB_RECTANGLE,12,93,13,16
+    PUSHBUTTON      "空心椭圆",IDB_ELLIPSE_EMPTY,11,112,13,16
+    PUSHBUTTON      "实心椭圆",IDB_ELLIPSE,11,131,13,16
+    CONTROL         "",IDS_COLOR,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_CENTERIMAGE,12,156,16,15
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,8,151,26,1
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,8,175,26,1
+    PUSHBUTTON      "线宽二",IDB_WIDTH_2,9,201,13,16
+    PUSHBUTTON      "线宽一",IDB_WIDTH_1,9,181,13,16
+    PUSHBUTTON      "线宽三",IDB_WIDTH_3,9,221,13,16
+    PUSHBUTTON      "线宽四",IDB_WIDTH_4,9,241,13,16
+END
+
+IDD_WHITEBOARD_CLIENT DIALOG DISCARDABLE  0, 0, 409, 335
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "白板"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "",IDS_CANVAS,"Static",SS_BLACKFRAME | SS_NOTIFY,39,7,
+                    363,321
+    PUSHBUTTON      "橡皮察",IDB_ERASER,12,17,13,16
+    GROUPBOX        "工具",IDC_STATIC,7,7,26,258
+    PUSHBUTTON      "画笔",IDB_PENCIL,12,36,13,16
+    PUSHBUTTON      "直线",IDB_LINE,12,55,13,16
+    PUSHBUTTON      "空心矩形",IDB_RECTANGLE_EMPTY,12,74,13,16
+    PUSHBUTTON      "实心矩形",IDB_RECTANGLE,12,93,13,16
+    PUSHBUTTON      "空心椭圆",IDB_ELLIPSE_EMPTY,11,112,13,16
+    PUSHBUTTON      "实心椭圆",IDB_ELLIPSE,11,131,13,16
+    CONTROL         "",IDS_COLOR,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_CENTERIMAGE,12,156,16,15
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,8,151,26,1
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,8,175,26,1
+    PUSHBUTTON      "线宽二",IDB_WIDTH_2,9,201,13,16
+    PUSHBUTTON      "线宽一",IDB_WIDTH_1,9,181,13,16
+    PUSHBUTTON      "线宽三",IDB_WIDTH_3,9,221,13,16
+    PUSHBUTTON      "线宽四",IDB_WIDTH_4,9,241,13,16
+END
+
+IDD_VIDEOCHAT DIALOG DISCARDABLE  0, 0, 454, 210
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "视频"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "",IDS_FRIEND,"Static",SS_BLACKRECT,7,7,216,162
+    CONTROL         "",IDS_SELF,"Static",SS_BLACKRECT,231,7,216,162
+    ICON            IDI_MIKE,IDS_MIKE,326,178,20,20
+    ICON            IDI_TRUMP,IDS_TRUMP,99,178,20,20
+    CONTROL         "",IDC_TRUMP,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | 
+                    WS_TABSTOP,92,184,8,8
+    CONTROL         "",IDC_MIKE,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | 
+                    WS_TABSTOP,315,184,10,8
+    PUSHBUTTON      "<<<",IDB_SELF,173,182,50,14
+    PUSHBUTTON      "关　闭",IDB_SETTING,397,182,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "InstantMessaging Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "InstantMessaging\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2011\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "InstantMessaging.EXE\0"
+            VALUE "ProductName", "InstantMessaging 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_INSTANTMESSAGING_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 162
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 266
+    END
+
+    IDD_DIALOG_BG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_SETTING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 126
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 118
+    END
+
+    IDD_CHATROOM_SERVER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 385
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 265
+    END
+
+    IDD_CHATROOM_CLIENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 385
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 265
+    END
+
+    IDD_CHAT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 294
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 279
+    END
+
+    IDD_SENDFILES_SERVER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 453
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 161
+    END
+
+    IDD_SENDFILES_CLIENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 453
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 161
+    END
+
+    IDD_SENDFILES_USER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 171
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 216
+    END
+
+    IDD_SHARESCREEN_SERVER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 385
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 265
+    END
+
+    IDD_WHITEBOARD_SERVER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 462
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 308
+    END
+
+    IDD_WHITEBOARD_CLIENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 402
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 328
+    END
+
+    IDD_VIDEOCHAT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 447
+        VERTGUIDE, 223
+        VERTGUIDE, 231
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_INSTANTMESSAGING_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO_STATE, 0x403, 5, 0
+0xdad4, 0xdfcf, "\000" 
+    IDC_COMBO_STATE, 0x403, 5, 0
+0xebc0, 0xdfcf, "\000" 
+    0
+END
+
+IDD_CHAT DLGINIT
+BEGIN
+    IDC_RICHTEXT_SEND, 0x37a, 161, 0
+0x0017, 0x0000, 0x0020, 0x0071, 0x0068, 0x006a, 0x0020, 0x005a, 0x0074, 
+0x0075, 0x0051, 0x0068, 0x0061, 0x003b, 0x006a, 0x0064, 0x0066, 0x006e, 
+0x005b, 0x0069, 0x0061, 0x0065, 0x0074, 0x0072, 0x0020, 0x0023, 0x0000, 
+0x0001, 0x0000, 0x001b, 0x0000, 0x0001, 0x8001, 0x0000, 0x000a, 0x0000, 
+0x001a, 0x0000, 0x0002, 0x8001, 0x0001, 0x0000, 0x2100, 0x3443, 0x0812, 
+0x0000, 0x8c00, 0x002c, 0xc000, 0x000a, 0x2100, 0x3443, 0x0112, 0x0600, 
+0x3000, 0x0000, 0x0000, 0xff00, 0x00ff, 0xff00, 0xffff, 0xffff, 0x00ff, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0500, 0x0000, 0x0080, 0x0000, 
+0x0000, 0x0100, 0x0200, 0x0100, 0x0100, 0x0000, 0x0000, 0x0000, "\000" 
+    IDC_RICHTEXT_RECEIVED, 0x37a, 161, 0
+0x0017, 0x0000, 0x0020, 0x0071, 0x0068, 0x006a, 0x0020, 0x005a, 0x0074, 
+0x0075, 0x0051, 0x0068, 0x0061, 0x003b, 0x006a, 0x0064, 0x0066, 0x006e, 
+0x005b, 0x0069, 0x0061, 0x0065, 0x0074, 0x0072, 0x0020, 0x0023, 0x0000, 
+0x0001, 0x0000, 0x001b, 0x0000, 0x0001, 0x8001, 0x0000, 0x000a, 0x0000, 
+0x001a, 0x0000, 0x0002, 0x8001, 0x0001, 0x0000, 0x2100, 0x3443, 0x0812, 
+0x0000, 0x8c00, 0x002c, 0x4100, 0x0017, 0x2100, 0x3443, 0x0112, 0x0600, 
+0x3000, 0x0000, 0x0000, 0xff00, 0xffff, 0xffff, 0xffff, 0xffff, 0x00ff, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0500, 0x0000, 0x0080, 0x0000, 
+0x0000, 0x0100, 0x0200, 0x0100, 0x0100, 0x0000, 0x0000, 0x0000, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_CHATROOM_DISABLE    BITMAP  DISCARDABLE     "res\\Button\\chatroom_disable.bmp"
+IDB_CHATROOM_DOWN       BITMAP  DISCARDABLE     "res\\Button\\chatroom_down.bmp"
+IDB_CHATROOM_HOVER      BITMAP  DISCARDABLE     "res\\Button\\chatroom_hover.bmp"
+IDB_CHATROOM_NORMAL     BITMAP  DISCARDABLE     "res\\Button\\chatroom_normal.bmp"
+IDB_ADDFRIEND_DISABLE   BITMAP  DISCARDABLE     "res\\Button\\addfriend_disable.bmp"
+IDB_ADDFRIEND_DOWN      BITMAP  DISCARDABLE     "res\\Button\\addfriend_down.bmp"
+IDB_ADDFRIEND_HOVER     BITMAP  DISCARDABLE     "res\\Button\\addfriend_hover.bmp"
+IDB_ADDFRIEND_NORMAL    BITMAP  DISCARDABLE     "res\\Button\\addfriend_normal.bmp"
+IDB_SHARESCREEN_NORMAL  BITMAP  DISCARDABLE     "res\\Button\\sharescreen_normal.bmp"
+IDB_SENDFILES_DISABLE   BITMAP  DISCARDABLE     "res\\Button\\sendfiles_disable.bmp"
+IDB_SENDFILES_DOWN      BITMAP  DISCARDABLE     "res\\Button\\sendfiles_down.bmp"
+IDB_SENDFILES_HOVER     BITMAP  DISCARDABLE     "res\\Button\\sendfiles_hover.bmp"
+IDB_SENDFILES_NORMAL    BITMAP  DISCARDABLE     "res\\Button\\sendfiles_normal.bmp"
+IDB_SHARESCREEN_DISABLE BITMAP  DISCARDABLE     "res\\Button\\sharescreen_disable.bmp"
+IDB_SHARESCREEN_DOWN    BITMAP  DISCARDABLE     "res\\Button\\sharescreen_down.bmp"
+IDB_SHARESCREEN_HOVER   BITMAP  DISCARDABLE     "res\\Button\\sharescreen_hover.bmp"
+IDB_WHITEBOARD_DISABLE  BITMAP  DISCARDABLE     "res\\Button\\whiteboard_disable.bmp"
+IDB_WHITEBOARD_DOWN     BITMAP  DISCARDABLE     "res\\Button\\whiteboard_down.bmp"
+IDB_WHITEBOARD_HOVER    BITMAP  DISCARDABLE     "res\\Button\\whiteboard_hover.bmp"
+IDB_WHITEBOARD_NORMAL   BITMAP  DISCARDABLE     "res\\Button\\whiteboard_normal.bmp"
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\Face\\bmp178.bmp"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "res\\Face\\bmp167.bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "res\\Face\\bmp168.bmp"
+IDB_BITMAP4             BITMAP  DISCARDABLE     "res\\Face\\bmp169.bmp"
+IDB_BITMAP5             BITMAP  DISCARDABLE     "res\\Face\\bmp170.bmp"
+IDB_BITMAP6             BITMAP  DISCARDABLE     "res\\Face\\bmp171.bmp"
+IDB_BITMAP7             BITMAP  DISCARDABLE     "res\\Face\\bmp172.bmp"
+IDB_BITMAP8             BITMAP  DISCARDABLE     "res\\Face\\bmp173.bmp"
+IDB_BITMAP9             BITMAP  DISCARDABLE     "res\\Face\\bmp174.bmp"
+IDB_BITMAP10            BITMAP  DISCARDABLE     "res\\Face\\bmp175.bmp"
+IDB_BITMAP11            BITMAP  DISCARDABLE     "res\\Face\\bmp176.bmp"
+IDB_BITMAP12            BITMAP  DISCARDABLE     "res\\Face\\bmp177.bmp"
+IDB_BITMAP13            BITMAP  DISCARDABLE     "res\\Face\\bmp190.bmp"
+IDB_BITMAP14            BITMAP  DISCARDABLE     "res\\Face\\bmp179.bmp"
+IDB_BITMAP15            BITMAP  DISCARDABLE     "res\\Face\\bmp180.bmp"
+IDB_BITMAP16            BITMAP  DISCARDABLE     "res\\Face\\bmp181.bmp"
+IDB_BITMAP17            BITMAP  DISCARDABLE     "res\\Face\\bmp182.bmp"
+IDB_BITMAP18            BITMAP  DISCARDABLE     "res\\Face\\bmp183.bmp"
+IDB_BITMAP19            BITMAP  DISCARDABLE     "res\\Face\\bmp184.bmp"
+IDB_BITMAP20            BITMAP  DISCARDABLE     "res\\Face\\bmp185.bmp"
+IDB_BITMAP21            BITMAP  DISCARDABLE     "res\\Face\\bmp186.bmp"
+IDB_BITMAP22            BITMAP  DISCARDABLE     "res\\Face\\bmp187.bmp"
+IDB_BITMAP23            BITMAP  DISCARDABLE     "res\\Face\\bmp188.bmp"
+IDB_BITMAP24            BITMAP  DISCARDABLE     "res\\Face\\bmp189.bmp"
+IDB_BITMAP25            BITMAP  DISCARDABLE     "res\\Face\\bmp202.bmp"
+IDB_BITMAP26            BITMAP  DISCARDABLE     "res\\Face\\bmp191.bmp"
+IDB_BITMAP27            BITMAP  DISCARDABLE     "res\\Face\\bmp192.bmp"
+IDB_BITMAP28            BITMAP  DISCARDABLE     "res\\Face\\bmp193.bmp"
+IDB_BITMAP29            BITMAP  DISCARDABLE     "res\\Face\\bmp194.bmp"
+IDB_BITMAP30            BITMAP  DISCARDABLE     "res\\Face\\bmp195.bmp"
+IDB_BITMAP31            BITMAP  DISCARDABLE     "res\\Face\\bmp196.bmp"
+IDB_BITMAP32            BITMAP  DISCARDABLE     "res\\Face\\bmp197.bmp"
+IDB_BITMAP33            BITMAP  DISCARDABLE     "res\\Face\\bmp198.bmp"
+IDB_BITMAP34            BITMAP  DISCARDABLE     "res\\Face\\bmp199.bmp"
+IDB_BITMAP35            BITMAP  DISCARDABLE     "res\\Face\\bmp200.bmp"
+IDB_BITMAP36            BITMAP  DISCARDABLE     "res\\Face\\bmp201.bmp"
+IDB_BITMAP37            BITMAP  DISCARDABLE     "res\\Face\\bmp214.bmp"
+IDB_BITMAP38            BITMAP  DISCARDABLE     "res\\Face\\bmp203.bmp"
+IDB_BITMAP39            BITMAP  DISCARDABLE     "res\\Face\\bmp204.bmp"
+IDB_BITMAP40            BITMAP  DISCARDABLE     "res\\Face\\bmp205.bmp"
+IDB_BITMAP41            BITMAP  DISCARDABLE     "res\\Face\\bmp206.bmp"
+IDB_BITMAP42            BITMAP  DISCARDABLE     "res\\Face\\bmp207.bmp"
+IDB_BITMAP43            BITMAP  DISCARDABLE     "res\\Face\\bmp208.bmp"
+IDB_BITMAP44            BITMAP  DISCARDABLE     "res\\Face\\bmp209.bmp"
+IDB_BITMAP45            BITMAP  DISCARDABLE     "res\\Face\\bmp210.bmp"
+IDB_BITMAP46            BITMAP  DISCARDABLE     "res\\Face\\bmp211.bmp"
+IDB_BITMAP47            BITMAP  DISCARDABLE     "res\\Face\\bmp212.bmp"
+IDB_BITMAP48            BITMAP  DISCARDABLE     "res\\Face\\bmp213.bmp"
+IDB_BITMAP49            BITMAP  DISCARDABLE     "res\\Face\\bmp226.bmp"
+IDB_BITMAP50            BITMAP  DISCARDABLE     "res\\Face\\bmp215.bmp"
+IDB_BITMAP51            BITMAP  DISCARDABLE     "res\\Face\\bmp216.bmp"
+IDB_BITMAP52            BITMAP  DISCARDABLE     "res\\Face\\bmp217.bmp"
+IDB_BITMAP53            BITMAP  DISCARDABLE     "res\\Face\\bmp218.bmp"
+IDB_BITMAP54            BITMAP  DISCARDABLE     "res\\Face\\bmp219.bmp"
+IDB_BITMAP55            BITMAP  DISCARDABLE     "res\\Face\\bmp220.bmp"
+IDB_BITMAP56            BITMAP  DISCARDABLE     "res\\Face\\bmp221.bmp"
+IDB_BITMAP57            BITMAP  DISCARDABLE     "res\\Face\\bmp222.bmp"
+IDB_BITMAP58            BITMAP  DISCARDABLE     "res\\Face\\bmp223.bmp"
+IDB_BITMAP59            BITMAP  DISCARDABLE     "res\\Face\\bmp224.bmp"
+IDB_BITMAP60            BITMAP  DISCARDABLE     "res\\Face\\bmp225.bmp"
+IDB_BITMAP61            BITMAP  DISCARDABLE     "res\\Face\\bmp238.bmp"
+IDB_BITMAP62            BITMAP  DISCARDABLE     "res\\Face\\bmp227.bmp"
+IDB_BITMAP63            BITMAP  DISCARDABLE     "res\\Face\\bmp228.bmp"
+IDB_BITMAP64            BITMAP  DISCARDABLE     "res\\Face\\bmp229.bmp"
+IDB_BITMAP65            BITMAP  DISCARDABLE     "res\\Face\\bmp230.bmp"
+IDB_BITMAP66            BITMAP  DISCARDABLE     "res\\Face\\bmp231.bmp"
+IDB_BITMAP67            BITMAP  DISCARDABLE     "res\\Face\\bmp232.bmp"
+IDB_BITMAP68            BITMAP  DISCARDABLE     "res\\Face\\bmp233.bmp"
+IDB_BITMAP69            BITMAP  DISCARDABLE     "res\\Face\\bmp234.bmp"
+IDB_BITMAP70            BITMAP  DISCARDABLE     "res\\Face\\bmp235.bmp"
+IDB_BITMAP71            BITMAP  DISCARDABLE     "res\\Face\\bmp236.bmp"
+IDB_BITMAP72            BITMAP  DISCARDABLE     "res\\Face\\bmp237.bmp"
+IDB_BITMAP73            BITMAP  DISCARDABLE     "res\\Face\\bmp249.bmp"
+IDB_BITMAP74            BITMAP  DISCARDABLE     "res\\Face\\bmp239.bmp"
+IDB_BITMAP75            BITMAP  DISCARDABLE     "res\\Face\\bmp240.bmp"
+IDB_BITMAP76            BITMAP  DISCARDABLE     "res\\Face\\bmp241.bmp"
+IDB_BITMAP77            BITMAP  DISCARDABLE     "res\\Face\\bmp242.bmp"
+IDB_BITMAP78            BITMAP  DISCARDABLE     "res\\Face\\bmp243.bmp"
+IDB_BITMAP79            BITMAP  DISCARDABLE     "res\\Face\\bmp244.bmp"
+IDB_BITMAP80            BITMAP  DISCARDABLE     "res\\Face\\bmp245.bmp"
+IDB_BITMAP81            BITMAP  DISCARDABLE     "res\\Face\\bmp246.bmp"
+IDB_BITMAP82            BITMAP  DISCARDABLE     "res\\Face\\bmp247.bmp"
+IDB_BITMAP83            BITMAP  DISCARDABLE     "res\\Face\\bmp248.bmp"
+IDB_CAMERA              BITMAP  DISCARDABLE     "res\\camera.bmp"
+IDB_DELETE              BITMAP  DISCARDABLE     "res\\delete.bmp"
+IDB_CHATROOM_ADD_DISABLE BITMAP  DISCARDABLE     "res\\ChatRoom\\addfriend_disable.bmp"
+IDB_CHATROOM_ADD_DOWN   BITMAP  DISCARDABLE     "res\\ChatRoom\\addfriend_down.bmp"
+IDB_CHATROOM_ADD_HOVER  BITMAP  DISCARDABLE     "res\\ChatRoom\\addfriend_hover.bmp"
+IDB_CHATROOM_ADD_NORMAL BITMAP  DISCARDABLE     "res\\ChatRoom\\addfriend_normal.bmp"
+IDB_CHATROOM_DEL_DISABLE BITMAP  DISCARDABLE     "res\\ChatRoom\\delfriend_disable.bmp"
+IDB_CHATROOM_DEL_DOWN   BITMAP  DISCARDABLE     "res\\ChatRoom\\delfriend_down.bmp"
+IDB_CHATROOM_DEL_HOVER  BITMAP  DISCARDABLE     "res\\ChatRoom\\delfriend_hover.bmp"
+IDB_CHATROOM_DEL_NORMAL BITMAP  DISCARDABLE     "res\\ChatRoom\\delfriend_normal.bmp"
+IDB_WHITEBOARD_ERASE_NORMAL BITMAP  DISCARDABLE     "res\\WhiteBoard\\eraser_normal.bmp"
+IDB_WHITEBOARD_ERASE_DISABLE BITMAP  DISCARDABLE     "res\\WhiteBoard\\eraser_disable.bmp"
+IDB_WHITEBOARD_ERASE_DOWN BITMAP  DISCARDABLE     "res\\WhiteBoard\\eraser_down.bmp"
+IDB_WHITEBOARD_ERASE_HOVER BITMAP  DISCARDABLE     "res\\WhiteBoard\\eraser_hover.bmp"
+IDB_WHITEBOARD_ELLIPSE_NORMAL BITMAP  DISCARDABLE     "res\\WhiteBoard\\ellipse_normal.bmp"
+IDB_WHITEBOARD_ELLIPSE_DISABLE BITMAP  DISCARDABLE     "res\\WhiteBoard\\ellipse_disable.bmp"
+IDB_WHITEBOARD_ELLIPSE_DOWN BITMAP  DISCARDABLE     "res\\WhiteBoard\\ellipse_down.bmp"
+IDB_WHITEBOARD_ELLIPSE_EMPTY_DISABLE BITMAP  DISCARDABLE     "res\\WhiteBoard\\ellipse_empty_disable.bmp"
+IDB_WHITEBOARD_ELLIPSE_EMPTY_DOWN BITMAP  DISCARDABLE     "res\\WhiteBoard\\ellipse_empty_down.bmp"
+IDB_WHITEBOARD_ELLIPSE_EMPTY_HOVER BITMAP  DISCARDABLE     "res\\WhiteBoard\\ellipse_empty_hover.bmp"
+IDB_WHITEBOARD_ELLIPSE_EMPTY_NORMAL BITMAP  DISCARDABLE     "res\\WhiteBoard\\ellipse_empty_normal.bmp"
+IDB_WHITEBOARD_ELLIPSE_HOVER BITMAP  DISCARDABLE     "res\\WhiteBoard\\ellipse_hover.bmp"
+IDB_WHITEBOARD_PENCIL_NORMAL BITMAP  DISCARDABLE     "res\\WhiteBoard\\pencil_normal.bmp"
+IDB_WHITEBOARD_LINE_DISABLE BITMAP  DISCARDABLE     "res\\WhiteBoard\\line_disable.bmp"
+IDB_WHITEBOARD_LINE_DOWN BITMAP  DISCARDABLE     "res\\WhiteBoard\\line_down.bmp"
+IDB_WHITEBOARD_LINE_HOVER BITMAP  DISCARDABLE     "res\\WhiteBoard\\line_hover.bmp"
+IDB_WHITEBOARD_LINE_NORMAL BITMAP  DISCARDABLE     "res\\WhiteBoard\\line_normal.bmp"
+IDB_WHITEBOARD_PENCIL_DISABLE BITMAP  DISCARDABLE     "res\\WhiteBoard\\pencil_disable.bmp"
+IDB_WHITEBOARD_PENCIL_DOWN BITMAP  DISCARDABLE     "res\\WhiteBoard\\pencil_down.bmp"
+IDB_WHITEBOARD_PENCIL_HOVER BITMAP  DISCARDABLE     "res\\WhiteBoard\\pencil_hover.bmp"
+IDB_WHITEBOARD_RECTANGLE_NORMAL BITMAP  DISCARDABLE     "res\\WhiteBoard\\rectangle_normal.bmp"
+IDB_WHITEBOARD_RECTANGLE_DISABLE BITMAP  DISCARDABLE     "res\\WhiteBoard\\rectangle_disable.bmp"
+IDB_WHITEBOARD_RECTANGLE_DOWN BITMAP  DISCARDABLE     "res\\WhiteBoard\\rectangle_down.bmp"
+IDB_WHITEBOARD_RECTANGLE_EMPTY_DISABLE BITMAP  DISCARDABLE     "res\\WhiteBoard\\rectangle_empty_disable.bmp"
+IDB_WHITEBOARD_RECTANGLE_EMPTY_DOWN BITMAP  DISCARDABLE     "res\\WhiteBoard\\rectangle_empty_down.bmp"
+IDB_WHITEBOARD_RECTANGLE_EMPTY_HOVER BITMAP  DISCARDABLE     "res\\WhiteBoard\\rectangle_empty_hover.bmp"
+IDB_WHITEBOARD_RECTANGLE_EMPTY_NORMAL BITMAP  DISCARDABLE     "res\\WhiteBoard\\rectangle_empty_normal.bmp"
+IDB_WHITEBOARD_RECTANGLE_HOVER BITMAP  DISCARDABLE     "res\\WhiteBoard\\rectangle_hover.bmp"
+IDB_WHITEBOARD_WIDTH_2_NORMAL BITMAP  DISCARDABLE     "res\\WhiteBoard\\width_2_normal.bmp"
+IDB_WHITEBOARD_WIDTH_1_DISABLE BITMAP  DISCARDABLE     "res\\WhiteBoard\\width_1_disable.bmp"
+IDB_WHITEBOARD_WIDTH_1_DOWN BITMAP  DISCARDABLE     "res\\WhiteBoard\\width_1_down.bmp"
+IDB_WHITEBOARD_WIDTH_1_HOVER BITMAP  DISCARDABLE     "res\\WhiteBoard\\width_1_hover.bmp"
+IDB_WHITEBOARD_WIDTH_1_NORMAL BITMAP  DISCARDABLE     "res\\WhiteBoard\\width_1_normal.bmp"
+IDB_WHITEBOARD_WIDTH_2_DISABLE BITMAP  DISCARDABLE     "res\\WhiteBoard\\width_2_disable.bmp"
+IDB_WHITEBOARD_WIDTH_2_DOWN BITMAP  DISCARDABLE     "res\\WhiteBoard\\width_2_down.bmp"
+IDB_WHITEBOARD_WIDTH_2_HOVER BITMAP  DISCARDABLE     "res\\WhiteBoard\\width_2_hover.bmp"
+IDB_WHITEBOARD_WIDTH_4_NORMAL BITMAP  DISCARDABLE     "res\\WhiteBoard\\width_4_normal.bmp"
+IDB_WHITEBOARD_WIDTH_3_DISABLE BITMAP  DISCARDABLE     "res\\WhiteBoard\\width_3_disable.bmp"
+IDB_WHITEBOARD_WIDTH_3_DOWN BITMAP  DISCARDABLE     "res\\WhiteBoard\\width_3_down.bmp"
+IDB_WHITEBOARD_WIDTH_3_HOVER BITMAP  DISCARDABLE     "res\\WhiteBoard\\width_3_hover.bmp"
+IDB_WHITEBOARD_WIDTH_3_NORMAL BITMAP  DISCARDABLE     "res\\WhiteBoard\\width_3_normal.bmp"
+IDB_WHITEBOARD_WIDTH_4_DISABLE BITMAP  DISCARDABLE     "res\\WhiteBoard\\width_4_disable.bmp"
+IDB_WHITEBOARD_WIDTH_4_DOWN BITMAP  DISCARDABLE     "res\\WhiteBoard\\width_4_down.bmp"
+IDB_WHITEBOARD_WIDTH_4_HOVER BITMAP  DISCARDABLE     "res\\WhiteBoard\\width_4_hover.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "主界面弹出菜单"
+    BEGIN
+        MENUITEM "个人设置",                    IDM_SETTING
+        MENUITEM "聊天室",                      IDM_CHATROOM
+        MENUITEM "传送文件",                    IDM_SENDFILES
+        MENUITEM "接收文件",                    IDM_RECEIVEFILES
+        MENUITEM "共享屏幕",                    IDM_SHARESCREEN
+        MENUITEM "白板",                        IDM_WHITEBOARD
+        MENUITEM "上线",                        IDM_STATE
+        MENUITEM "退出",                        IDM_EXIT
+    END
+END
+
+IDR_MENU2 MENU DISCARDABLE 
+BEGIN
+    POPUP "好友列表弹出菜单"
+    BEGIN
+        MENUITEM "发送消息",                    IDM_SENDMESSAGE
+        MENUITEM "视频聊天",                    IDM_VIDEOCHAT
+        MENUITEM "删除联系人",                  IDM_DELETEUSER
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_ERASER_1            CURSOR  DISCARDABLE     "res\\eraser_1.cur"
+IDC_ERASER_2            CURSOR  DISCARDABLE     "res\\eraser_2.cur"
+IDC_ERASER_3            CURSOR  DISCARDABLE     "res\\eraser_3.cur"
+IDC_ERASER_4            CURSOR  DISCARDABLE     "res\\eraser_4.cur"
+IDC_PENCIL              CURSOR  DISCARDABLE     "res\\pencil.cur"
+IDC_CURSOR              CURSOR  DISCARDABLE     "res\\cursor.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 InstantMessaging(&A)..."
+    IDP_SOCKETS_INIT_FAILED "Windows 通信端口初始化失败。"
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\InstantMessaging.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

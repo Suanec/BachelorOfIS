@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "函数返回指针或数组名", "函数返回指针或数组名\函数返回指针或数组名.vcxproj", "{53764F5E-1E36-4F97-9DF6-FD022AC406E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53764F5E-1E36-4F97-9DF6-FD022AC406E8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{53764F5E-1E36-4F97-9DF6-FD022AC406E8}.Debug|Win32.Build.0 = Debug|Win32
+		{53764F5E-1E36-4F97-9DF6-FD022AC406E8}.Release|Win32.ActiveCfg = Release|Win32
+		{53764F5E-1E36-4F97-9DF6-FD022AC406E8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

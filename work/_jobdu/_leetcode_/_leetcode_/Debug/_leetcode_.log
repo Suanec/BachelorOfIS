@@ -1,0 +1,98 @@
+﻿生成启动时间为 2016/7/18 23:28:51。
+     1>项目“D:\EPartition\my program\work\_jobdu\_leetcode_\_leetcode_\_leetcode_.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\_leetcode_.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt _leetcode_374.cpp
+         _leetcode_374.cpp
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\EPartition\my program\work\_jobdu\_leetcode_\Debug\_leetcode_.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\_leetcode_.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\EPartition\my program\work\_jobdu\_leetcode_\Debug\_leetcode_.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\EPartition\my program\work\_jobdu\_leetcode_\Debug\_leetcode_.lib" /MACHINE:X86 Debug\_leetcode_.exe.embed.manifest.res
+         Debug\_leetcode_233.obj
+         Debug\_leetcode_326.obj
+         Debug\T_leetcode_345.obj
+         Debug\_leetcode_349.obj
+         Debug\_leetcode_350.obj
+         Debug\_leetcode_374.obj
+         Debug\_S_sizeofPointer.obj
+         Debug\T_leetcode_006.obj
+         Debug\T_leetcode_095.obj
+         Debug\_leetcode_002.obj
+         Debug\_leetcode_007.obj
+         Debug\_leetcode_008.obj
+         Debug\T_leetcode_053.obj
+         Debug\_leetcode_031.obj
+         Debug\_leetcode_100.obj
+         Debug\T_leetcode_122.obj
+         Debug\_leetcode_121.obj
+         Debug\_leetcode_137.obj
+         Debug\_leetcode_141.obj
+         Debug\_leetcode_168.obj
+         Debug\_leetcode_169.obj
+         Debug\_leetcode_171.obj
+         Debug\_leetcode_191.obj
+         Debug\_leetcode_206.obj
+         Debug\_leetcode_217.obj
+         Debug\T_leetcode_229.obj
+         Debug\_leetcode_231.obj
+         Debug\_leetcode_237.obj
+         Debug\_leetcode_238.obj
+         Debug\_leetcode_242.obj
+         Debug\_leetcode_260.obj
+         Debug\_leetcode_226.obj
+         Debug\_leetcode_283.obj
+         Debug\_leetcode_311.obj
+         Debug\_leetcode_136.obj
+         Debug\T_leetcode_241.obj
+         Debug\_leetcode_338.obj
+         Debug\_leetcode_344.obj
+         Debug\_leetcode_096.obj
+         Debug\_leetcode_160.obj
+         Debug\_leetcode_190.obj
+         Debug\_leetcode_189.obj
+         Debug\_leetcode_001.obj
+         Debug\_leetcode_013.obj
+         Debug\T_leetcode_134.obj
+         Debug\_leetcode_148.obj
+         Debug\_leetcode_075.obj
+         Debug\_leetcode_144.obj
+         Debug\T_leetcode_145.obj
+         Debug\_leetcode_173.obj
+         Debug\_leetcode_098.obj
+         Debug\_leetcode_094.obj
+         Debug\_leetcode_230.obj
+         Debug\T_leetcode_BinarySortTree.obj
+         Debug\_leetcode_290.obj
+         Debug\_aTemplate.obj
+         Debug\_leetcode_205.obj
+         Debug\_leetcode_313.obj
+         Debug\_leetcode_263.obj
+         Debug\_leetcode_264.obj
+         Debug\O_leetcode_347.obj
+         Debug\_leetcode_83.obj
+         Debug\_nowcoder_printMatrix.obj
+         "Debug\_S_Boyer-Moore.obj"
+         Debug\_Tencent_getGray.obj
+         Debug\_leetcode_104.obj
+         Debug\_leetcode_258.obj
+         Debug\_leetcode_105.obj
+         Debug\_leetcode_106.obj
+         Debug\_leetcode_155.obj
+         Debug\_leetcode_292.obj
+         Debug\_leetcode_322.obj
+         Debug\_Tencent_Gift_getValue.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\_leetcode_.exe.embed.manifest" /manifest Debug\_leetcode_.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         _leetcode_.vcxproj -> D:\EPartition\my program\work\_jobdu\_leetcode_\Debug\_leetcode_.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\_leetcode_.unsuccessfulbuild”。
+         正在对“Debug\_leetcode_.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\EPartition\my program\work\_jobdu\_leetcode_\_leetcode_\_leetcode_.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.64
